@@ -52,24 +52,10 @@ export default function Hero() {
              initial={{ opacity: 0, scale: 0.95 }}
              animate={{ opacity: 1, scale: 1 }}
              transition={{ duration: 0.8, delay: 0.1 }}
-             className="col-span-12 lg:col-span-4 row-span-1 bento-card p-8 flex flex-col justify-center items-center text-center group"
+             className="col-span-12 lg:col-span-4 row-span-2 bento-card p-8 flex flex-col justify-center items-center text-center group"
           >
             <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Based in</p>
             <p className="text-2xl font-bold text-white italic">Philippines</p>
-          </motion.div>
-
-          {/* Role Card */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="col-span-12 lg:col-span-4 row-span-1 bento-card p-8 flex flex-col justify-center items-center text-center group"
-          >
-            <div className="w-16 h-16 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-500 mb-6 group-hover:scale-110 transition-transform">
-              <ArrowRight size={32} />
-            </div>
-            <h2 className="text-[10px] uppercase tracking-[0.3em] font-bold text-gray-500 mb-2">Current Role</h2>
-            <p className="text-xl font-semibold max-w-[200px]">Full Stack Developer & Network Architect</p>
           </motion.div>
 
           {/* Bottom Tech Label row */}
